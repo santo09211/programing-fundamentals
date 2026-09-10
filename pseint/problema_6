@@ -1,0 +1,12 @@
+Algoritmo problema_6
+definir distancia, tiempo, velocidad Como Real
+    distancia <- 0
+    tiempo <- 0
+    velocidad <- 0
+escribir "Ingrese la distancia recorrida (en kilómetros o metros):"
+    leer distancia
+escribir "Ingrese el tiempo empleado (en horas o segundos):"
+    leer tiempo
+    velocidad <- distancia / tiempo
+escribir "La velocidad promedio del vehículo es: ", velocidad
+FinAlgoritmo

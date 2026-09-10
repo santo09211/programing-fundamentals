@@ -1,0 +1,12 @@
+Algoritmo problema_8
+definir kilometros, litros, consumo_promedio Como Real
+    kilometros <- 0
+    litros <- 0
+    consumo_promedio <- 0
+escribir "Ingrese la cantidad de kilómetros recorridos:"
+    leer kilometros
+escribir "Ingrese la cantidad de combustible consumido en litros:"
+    leer litros
+    consumo_promedio <- kilometros / litros
+escribir "El consumo promedio de combustible es: ", consumo_promedio, " kilómetros por litro"
+FinAlgoritmo

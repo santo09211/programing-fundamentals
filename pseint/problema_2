@@ -1,0 +1,14 @@
+Algoritmo problema_2
+definir grade1 , grade2 , grade3 , ans  como real
+	grade1 <- 0
+	grade2 <- 0
+	grade3 <- 0
+	ans <- 0
+escribir "Primer corte"
+	leer grade1
+escribir "segundo corte"
+	leer grade2
+escribir "tercer corte"
+	leer grade3	
+escribir "El promedio es: ", ans (grade1 + grade2 + grade3) / 3
+FinAlgoritmo

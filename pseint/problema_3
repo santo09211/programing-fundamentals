@@ -1,0 +1,15 @@
+Algoritmo final_grade
+definir num1, num2, ans Como Real
+definir fullname como caracter
+    num1 <- 0
+    num2 <- 0
+    ans <- 0
+escribir "type fullname: "
+    leer fullname
+escribir "horas trabajadas"
+    leer num1
+escribir "pago por horas"
+    leer num2
+    ans <- num1 * num2
+escribir "Hola ", fullname, ", tu Salario es: ", ans
+FinAlgoritmo

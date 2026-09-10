@@ -1,0 +1,12 @@
+Algoritmo problema_5
+definir lado, area_cara, volumen Como Real
+    lado <- 0
+    area_cara <- 0
+    volumen <- 0
+escribir "Ingrese la longitud de uno de los lados del cubo:"
+    leer lado
+    area_cara <- lado * lado
+    volumen <- lado * lado * lado
+escribir "El área de una de sus caras es: ", area_cara
+escribir "El volumen total del cubo es: ", volumen
+FinAlgoritmo

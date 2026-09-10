@@ -1,0 +1,9 @@
+Algoritmo problema_7
+definir kilometros, metros Como Real
+    kilometros <- 0
+    metros <- 0
+escribir "Ingrese la distancia en kilómetros:"
+    leer kilometros
+    metros <- kilometros * 1000
+escribir "La distancia convertida a metros es: ", metros
+FinAlgoritmo

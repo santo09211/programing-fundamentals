@@ -1,0 +1,10 @@
+Algoritmo problema_10
+definir radio, area, MI_PI Como Real
+    MI_PI <- 3.1416
+    radio <- 0
+    area <- 0
+escribir "Ingrese el radio del círculo:"
+    leer radio
+    area <- MI_PI * (radio * radio)
+escribir "El área del círculo es: ", area
+FinAlgoritmo

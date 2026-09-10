@@ -1,0 +1,12 @@
+Algoritmo area_rectangulo
+definir base, altura, area Como Real
+    base <- 0
+    altura <- 0
+    area <- 0
+escribir "Ingrese la base del rectángulo:"
+    leer base
+escribir "Ingrese la altura del rectángulo:"
+    leer altura
+    area <- base * altura
+escribir "El área del rectángulo es: ", area
+FinAlgoritmo
